@@ -1,0 +1,18 @@
+#!/usr/bin/python
+
+"""
+
+Version 1.0 
+
+To execute use the following comman in shell: $ ./1_makelist_python 
+HINT: executible bit must be activated ($ chmod + 'scriptname')
+
+Suggest to redirect outout into a new file, output.txt
+HINT: $./makelist_python > output.txt 
+
+"""
+
+for i in range(0,100):
+	print(i) 
+
+
