@@ -1,0 +1,20 @@
+#!/usr/bin/python3 
+
+#Version 1.0
+
+# to run use ./2_rnd_smpl_python (if the executible bit is activated). 
+#to activate executible bit use: $ chmod +x 2_rnd_smpl_python 
+
+
+import sys
+
+print(sys.version)
+
+import pandas as pd
+
+
+
+df = pd.read_csv("output.txt")
+print(df.sample(n=10,replace = False))
+
+

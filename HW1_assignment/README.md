@@ -31,3 +31,8 @@ HW Assignment #1:
 
 	e) now do the same thing with python (hint:!#/usr/bin/python3), and make a python script to 
 		generate 1-100 numbers. Output the script into a .txt file output.txt 
+
+2) create a python shell script that take the output.txt file (100 lines 
+	of 1 to 100), selects 10 lines at random and returns the result. 
+
+	 
