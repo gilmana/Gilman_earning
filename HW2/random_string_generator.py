@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-
-"""
-Alexey Gilman
-05/16/16
-"""
-
 """
 Alexey Gilman
 05/16/16
@@ -33,5 +26,3 @@ def name_generator(size=10, char = string.ascii_uppercase + string.digits, nm_fi
     for o in master_list:
         file = open(o + ".txt", "a")
         file.close()
-
-name_generator()
