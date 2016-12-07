@@ -7,4 +7,5 @@ Learning basic software carpentry with Dave Beck and Erika Keim. The HW
 Assignments are created by myself and Dave Beck and will be completed 
 by me for the purpose of my own independant learning. 
 
-
+The python tutorials are a collection topics that I am laerning about - 
+with guiding resources taken from the internet. 
