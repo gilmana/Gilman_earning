@@ -28,12 +28,9 @@ class Loan:
         Plot the amortization schedule of the loan class
         """
         m = self.monthly()  # monthly payment
-
         count = np.arange(1, self.duration + 1)  # array with payment counts
         paid = count * m  # array with total paid for every payment
-
         array = np.stack([count, paid], axis=1)
-
         df = pd.DataFrame(array, columns=["Months", "Paid"])
 
         return (df.set_index("Months").plot())
