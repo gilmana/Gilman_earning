@@ -53,6 +53,7 @@ def amortization_schedule():
         df = pd.DataFrame({"Month": month_series, "Payment": payment_series})
         df["Total paid"] = df["Payment"].cumsum().round(1)  # total paid
 
+
         amortization[name] = df
 
     return amortization
